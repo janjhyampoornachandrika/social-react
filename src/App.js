@@ -4,7 +4,7 @@ import Register from "./Register";
 import Home from "./Home";
 export const UserContext = createContext();
 export default function App() {
-  const [user, setUser] = useState("John");
+  const [user,  setUser] = useState("John");
   const [flag, setFlag] = useState(0);
  
   return (
